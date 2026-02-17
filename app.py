@@ -14,7 +14,7 @@ import hashlib
 app = Flask(__name__)
 
 # Configuration de sécurité
-SECRET_PASSWORD = os.environ.get('BRIDGE_PASSWORD', 'CHANGEZ_MOI_ABSOLUMENT')
+SECRET_PASSWORD = os.environ.get('BRIDGE_PASSWORD', 'Lr06022002')
 
 # ╔══════════════════════════════════════════════════════════════╗
 # ║  MAPPING DES SYMBOLES TradingView → MT5                     ║
